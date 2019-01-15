@@ -1,9 +1,9 @@
 class FuseExt2 < Formula
   desc "FUSE module to mount ext2/3/4 file systems with read write support"
-  homepage "https://github.com/ipatch/fuse-ext2"
+  homepage "https://github.com/guoxiaoqiao/fuse-ext2"
   url "https://github.com/alperakcan/fuse-ext2/archive/v0.0.10.tar.gz"
   sha256 "ad2260df4ccfb8ba9f761c66ea7c3b24bf690eab46e6d562d2d2e5a5f2f76dff"
-  head "https://github.com/ipatch/fuse-ext2.git"
+  head "https://github.com/guoxiaoqiao/fuse-ext2.git"
 
   depends_on "autoconf" => :build
   depends_on "automake" => :build
